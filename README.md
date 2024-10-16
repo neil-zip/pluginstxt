@@ -4,9 +4,8 @@ A proposed standard to decentralize hosting of WordPress plugins and offer an al
 
 <a href="#"><img src="./pluginstxt.png"></a>
 
-
 ### Summary
-“Developers and website owners rely heavily on WordPress plugins to enhance functionality. Currently, the central repository at WordPress.org holds a dominant position in plugin distribution. `plugins.txt` aims to decentralize plugin hosting by allowing developers to self-host and provide necessary metadata for discovery, verification, and secure communication.”
+Developers and website owners rely heavily on WordPress plugins to enhance functionality. Currently, the central repository at WordPress.org holds a dominant position in plugin distribution. `plugins.txt` aims to decentralize plugin hosting by allowing developers to self-host and provide necessary metadata for discovery, verification, and secure communication.
 
 ### Example use case:
 - A developer releases a plugin update and self-hosts it with all relevant details in a `plugins.txt` file.
@@ -82,8 +81,9 @@ Meta-Data: {"compatibility":"5.9+", "license":"MIT"}
 
 ### Step 2: Hosting Your Plugins Decentralized
 - Once your `plugins.txt` file is ready, self-host it on your website or plugin server.
+
+### Step 3: Updates
 - Make sure the repository link is accessible, and periodically update the file as needed.
-- Optionally, digitally sign the file using OpenPGP or other cryptographic methods to ensure its authenticity.
 
 ---
 
