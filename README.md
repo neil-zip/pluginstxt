@@ -21,9 +21,6 @@ The `plugins.txt` file should be placed under the `.well-known` directory of you
 
 #### Example File Structure
 
-
-Great idea! Adding a **short description** and a **meta-data** field (as a JSON string for future extensibility) will make the file more informative while still being concise. Here's the updated structure with these new fields included.
-
 ---
 
 ## plugins.txt
