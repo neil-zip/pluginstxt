@@ -21,14 +21,8 @@ The `plugins.txt` file should be placed under the `.well-known` directory of you
 
 #### Example File Structure
 
----
-
-## plugins.txt
-A proposed decentralized standard for listing multiple WordPress plugins, including essential information like version, repository, updates, a short description, and optional meta-data.
-
 ### File Structure for Multiple Plugins
 
-#### Example of `plugins.txt` for multiple plugins:
 
 ```
 Plugin: Awesome Plugin
