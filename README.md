@@ -81,11 +81,13 @@ Meta-Data: {"compatibility":"5.9+", "license":"MIT"}
   An email or contact form link for users to reach out for support or questions. Use `mailto:` for email addresses or `https://` for contact forms.
 
 - **Icon-File** (Optional)  
-  A direct URL to the plugin’s icon or logo file (e.g., a PNG or JPG image), representing the plugin.
+  A direct URL to the plugin’s icon or logo file (e.g., a PNG or JPG image), representing the plugin. Recommended dimensions of 512x512 (1:1 ratio).
 
 - **Meta-Data** (Optional)  
   A JSON-encoded string to include any additional optional information (e.g., WordPress compatibility, license, additional tags, etc.). This field is designed for future flexibility.
 
+- **Cover-File** (Optional)  
+  A direct URL to the plugin’s cover (e.g., a PNG or JPG image), representing the plugin. Recommended dimensions: 1200x400 to 1920x600 pixels (16:9 ratio).
 
 ### Step 2: Hosting Your Plugins Decentralized
 - Once your `plugins.txt` file is ready, self-host it on your website or plugin server.
