@@ -1,6 +1,10 @@
 # pluginstxt
 A proposed standard to decentralize hosting of WordPress plugins and offer an alternative to centralized plugin repositories.
 
+
+<a href="#"><img src="./pluginstxt.png"></a>
+
+
 ### Summary
 “Developers and website owners rely heavily on WordPress plugins to enhance functionality. Currently, the central repository at WordPress.org holds a dominant position in plugin distribution. `plugins.txt` aims to decentralize plugin hosting by allowing developers to self-host and provide necessary metadata for discovery, verification, and secure communication.”
 
