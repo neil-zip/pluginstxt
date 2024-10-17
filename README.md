@@ -98,3 +98,8 @@ It should be placed under the `.well-known` directory (e.g., `/.well-known/plugi
 **Will adding my email address expose me to spam?**  
 To minimize spam, consider using a web form link instead of a direct email address.
 
+---
+
+#### Plugin developer?
+Join us at <a href="https://discord.gg/KA94kvHq">Discord</a>
+
