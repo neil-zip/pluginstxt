@@ -24,7 +24,7 @@ The `plugins.txt` file should be placed under the `.well-known` directory of you
 
 
 ```
-Plugin: Awesome Plugin
+Plugin Name: Awesome Plugin
 Version: 2.1.0
 Description: A powerful plugin for enhancing site performance.
 Repository: https://example.com/plugins/awesome-plugin.zip
@@ -34,7 +34,7 @@ Contact: mailto:john@example.com
 Icon-File: https://example.com/icons/awesome-plugin-icon.png
 Meta-Data: {"compatibility":"5.8+", "license":"GPL-3.0"}
 
-Plugin: Super Plugin
+Plugin Name: Super Plugin
 Version: 3.0.5
 Description: An all-in-one solution for managing SEO and analytics.
 Repository: https://example.com/plugins/super-plugin.zip
@@ -49,7 +49,7 @@ Meta-Data: {"compatibility":"5.9+", "license":"MIT"}
 
 ### Field Descriptions for Each Plugin
 
-- **Plugin** (Required)  
+- **Plugin Name** (Required)  
   The name of the plugin.
 
 - **Version** (Required)  
