@@ -28,21 +28,25 @@ Plugin Name: Awesome Plugin
 Version: 2.1.0
 Description: A powerful plugin for enhancing site performance.
 Repository: https://example.com/plugins/awesome-plugin.zip
+Checksum-Sha256: d2d2d2e5931b9ecff1f5b5c5ff5f6d9e3d3e0f2e1e3a7a7d6d7d8e9a6a5f9f3
 Updates: https://example.com/category/awesome-plugin-updates
 Author: John Doe
 Contact: mailto:john@example.com
 Icon-File: https://example.com/icons/awesome-plugin-icon.png
-Meta-Data: {"compatibility":"5.8+", "license":"GPL-3.0"}
+License: GPL-3.0
+Meta-Data: {"compatibility":"5.8+"}
 
 Plugin Name: Super Plugin
 Version: 3.0.5
 Description: An all-in-one solution for managing SEO and analytics.
 Repository: https://example.com/plugins/super-plugin.zip
+Checksum-Sha256: a3b3c4d6e7f8e9b1b1c2c3d4e5f6a7b8c9d0e0f2a3c5f6d7e8f1f2e9d0c1e3b4
 Updates: https://example.com/category/super-plugin-updates
 Author: Jane Smith
 Contact: mailto:jane@example.com
 Icon-File: https://example.com/icons/super-plugin-icon.jpg
-Meta-Data: {"compatibility":"5.9+", "license":"MIT"}
+License: MIT
+Meta-Data: {"compatibility":"5.9+"}
 ```
 
 ---
@@ -63,6 +67,12 @@ Meta-Data: {"compatibility":"5.9+", "license":"MIT"}
 
 - **Updates** (Required)  
   A URL where users can check for updates, release notes, or changelogs for the plugin. This could be a blog category, RSS feed, or dedicated update page.
+
+- Checksum-Sha256 (Required):
+A SHA-256 checksum hash of the plugin file. This is crucial for verifying the integrity of the plugin by comparing the hash of the downloaded file with the one provided in the plugins.txt file.
+
+- License (Required):
+The licensing under which the plugin is distributed (e.g., GPL-3.0, MIT, etc.). It ensures that users know the legal permissions and restrictions of using the plugin.
 
 - **Author** (Required)  
   The name of the person or organization responsible for maintaining the plugin.
