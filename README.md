@@ -68,10 +68,10 @@ Meta-Data: {"compatibility":"5.9+"}
 - **Updates** (Required)  
   A URL where users can check for updates, release notes, or changelogs for the plugin. This could be a blog category, RSS feed, or dedicated update page.
 
-- Checksum-Sha256 (Required):
+- **Checksum-Sha256** (Required):
 A SHA-256 checksum hash of the plugin file. This is crucial for verifying the integrity of the plugin by comparing the hash of the downloaded file with the one provided in the plugins.txt file.
 
-- License (Required):
+- **License** (Required):
 The licensing under which the plugin is distributed (e.g., GPL-3.0, MIT, etc.). It ensures that users know the legal permissions and restrictions of using the plugin.
 
 - **Author** (Required)  
