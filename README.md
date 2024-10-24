@@ -111,5 +111,5 @@ To minimize spam, consider using a web form link instead of a direct email addre
 ---
 
 #### Plugin developer?
-Join us at <a href="https://discord.gg/KA94kvHq">Discord</a>
+Join us at <a href="https://discord.gg/e4NkSj28">Discord</a>
 
